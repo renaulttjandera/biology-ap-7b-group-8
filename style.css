@@ -98,6 +98,22 @@ canvas {
   .center-mobile {
     text-align: center;
   }
+
+  .up-btn {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    width: 5rem;
+    height: 5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 5rem;
+    border-radius: 50%;
+    z-index: 50;
+  }
 }
 
 .margin-bot {
