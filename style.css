@@ -71,6 +71,7 @@ canvas {
   text-align: center;
   line-height: 5rem;
   border-radius: 50%;
+  z-index: 99;
 }
 
 .color-white-nav {
@@ -112,7 +113,7 @@ canvas {
     text-align: center;
     line-height: 5rem;
     border-radius: 50%;
-    z-index: 50;
+    z-index: 99;
   }
 }
 
@@ -127,4 +128,8 @@ canvas {
   width: 100vw;
   position: fixed;
   z-index: 100;
+}
+
+.cover {
+  object-fit: cover;
 }
