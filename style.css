@@ -115,6 +115,10 @@ canvas {
     border-radius: 50%;
     z-index: 99;
   }
+
+  .margin-top-3 {
+    margin-top: 1rem !important;
+  }
 }
 
 .margin-bot {
